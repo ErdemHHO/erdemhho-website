@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Erdem Hacıhasanoğlu.I am a fourth-year student in Information Systems Engineering at Kocaeli University. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career background, contact information, and more on my website. Thank you ⭐",
+    "description": "👋 I'm Erdem Hacıhasanoğlu.I am a fourth-year student in Information Systems Engineering at Kocaeli University. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career history, contact information, and more on my website. Thank you ⭐",
     "Pdf": "Download CV: ",
     "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
     "section_name": {
@@ -307,7 +307,7 @@
     },
     "linkedin": {
       "title": "LinkedIn",
-      "content": "https://www.linkedin.com/erdemhho",
+      "content": "erdem-hacihasanoglu",
       "link": "https://www.linkedin.com/in/erdem-hacihasanoglu/"
     },
     "address": {
@@ -316,17 +316,17 @@
     },
     "medium": {
       "title": "Medium",
-      "content": "https://medium.com/@erdemhho",
+      "content": "@erdemhho",
       "link": "https://medium.com/@erdemhho"
     },
     "github": {
       "title": "GitHub",
-      "content": "https://github.com/ErdemHHO",
+      "content": "ErdemHHO",
       "link": "https://github.com/ErdemHHO"
     },
     "instagram": {
       "title": "Instagram",
-      "content": "https://www.instagram.com/erdemhho",
+      "content": "erdemhho",
       "link": "https://www.instagram.com/erdemhho/"
     }
   }

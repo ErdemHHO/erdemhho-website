@@ -2,7 +2,7 @@
   "basic_info": {
     "description_header": "Merhaba",
     "description": "👋 Ben Erdem Hacıhasanoğlu. Kocaeli Üniversitesi Bilgi Sistemleri Mühendisliği dördüncü sınıf öğrencisiyim. JavaScript programlama dili ve ilgili teknolojilere odaklanmış tutkulu bir yazılım geliştiriciyim. Becerilerimi, projelerimi, kariyer geçmişimi, iletişim bilgilerimi ve daha fazlasını web sitemde bulabilirsiniz. Teşekkürler ⭐",
-    "Pdf": "View My CV: ",
+    "Pdf": "CV: ",
     "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
     "section_name": {
       "about": "Hakkımda",
@@ -307,7 +307,7 @@
     },
     "linkedin": {
       "title": "LinkedIn",
-      "content": "https://www.linkedin.com/erdemhho",
+      "content": "erdem-hacihasanoglu",
       "link": "https://www.linkedin.com/in/erdem-hacihasanoglu/"
     },
     "address": {
@@ -316,17 +316,17 @@
     },
     "medium": {
       "title": "Medium",
-      "content": "https://medium.com/@erdemhho",
+      "content": "@erdemhho",
       "link": "https://medium.com/@erdemhho"
     },
     "github": {
       "title": "GitHub",
-      "content": "https://github.com/ErdemHHO",
+      "content": "ErdemHHO",
       "link": "https://github.com/ErdemHHO"
     },
     "instagram": {
       "title": "Instagram",
-      "content": "https://www.instagram.com/erdemhho",
+      "content": "erdemhho",
       "link": "https://www.instagram.com/erdemhho/"
     }
   }
