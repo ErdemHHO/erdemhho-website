@@ -11,6 +11,7 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images
       var title = this.props.data.title
       var description = this.props.data.description
+      var github_url = this.props.data.github_url
       var url = this.props.data.url
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -77,7 +78,14 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description">{description} </p>
+            <ul className="list-inline mx-auto">
+              <li className="list-inline-item mx-3">
+                <a href={github_url} target="_blank" rel="noopener noreferrer">
+                  Github: {github_url}
+                </a>
+              </li>
+            </ul>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

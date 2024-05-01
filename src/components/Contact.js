@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Form } from 'react-bootstrap'
-import { FaLinkedin, FaMailBulk } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaMedium } from 'react-icons/fa'
 import { FaMapLocationDot } from 'react-icons/fa6'
 
 class Contact extends Component {
@@ -46,74 +45,32 @@ class Contact extends Component {
               </div>
             </div>
             <div className="col-lg-6 bgDark">
-              <div className="contact-form">
-                <Form className="p-2 mt-4">
-                  <h1 className="contact-form-title text-white text-center">{contact.form.title}</h1>
-                  <Form.Group className="p-2" controlId="formBasicName">
-                    <Form.Label className="text-white" style={{ fontSize: '16px' }}>
-                      {contact.form.name.title}
-                    </Form.Label>
-                    <Form.Control
-                      type="text"
-                      placeholder={contact.form.name.placeholder}
-                      style={{ fontSize: '16px' }}
-                    />
-                  </Form.Group>
-                  <Form.Group className="p-2" controlId="formBasicSurname">
-                    <Form.Label className="text-white" style={{ fontSize: '16px' }}>
-                      {contact.form.surname.title}
-                    </Form.Label>
-                    <Form.Control
-                      type="text"
-                      placeholder={contact.form.surname.placeholder}
-                      style={{ fontSize: '16px' }}
-                    />
-                  </Form.Group>
-                  <Form.Group className="p-2" controlId="formBasicEmail">
-                    <Form.Label className="text-white" style={{ fontSize: '16px' }}>
-                      {contact.form.email.title}
-                    </Form.Label>
-                    <Form.Control
-                      type="email"
-                      placeholder={contact.form.email.placeholder}
-                      style={{ fontSize: '16px' }}
-                    />
-                  </Form.Group>
-                  <Form.Group className="p-2" controlId="formBasicSubject">
-                    <Form.Label className="text-white" style={{ fontSize: '16px' }}>
-                      {contact.form.subject.title}
-                    </Form.Label>
-                    <Form.Control
-                      type="text"
-                      placeholder={contact.form.subject.placeholder}
-                      style={{ fontSize: '16px' }}
-                    />
-                  </Form.Group>
-                  <Form.Group className="p-2" controlId="formBasicMessage">
-                    <Form.Label className="text-white" style={{ fontSize: '16px' }}>
-                      {contact.form.message.title}
-                    </Form.Label>
-                    <Form.Control
-                      as="textarea"
-                      rows="3"
-                      placeholder={contact.form.message.placeholder}
-                      style={{ fontSize: '16px' }}
-                    />
-                  </Form.Group>
-                  <div className="d-grid gap-2 p-2">
-                    <Button
-                      variant="primary"
-                      size="lg"
-                      type="submit"
-                      style={{
-                        fontSize: '18px',
-                        width: 'auto'
-                      }}
-                    >
-                      {contact.form.submit}
-                    </Button>
+              <div className="contact-item">
+                <a href={contact.github.link} target="blank" className="contact-link">
+                  <FaGithub className="contact-icon" />
+                  <div className="contact-text">
+                    <p className="contact-title">{contact.github.title}</p>
+                    <p className="contact-description">{contact.github.content}</p>
                   </div>
-                </Form>
+                </a>
+              </div>
+              <div className="contact-item">
+                <a href={contact.medium.link} target="blank" className="contact-link">
+                  <FaMedium className="contact-icon" />
+                  <div className="contact-text">
+                    <p className="contact-title">{contact.medium.title}</p>
+                    <p className="contact-description">{contact.medium.content}</p>
+                  </div>
+                </a>
+              </div>
+              <div className="contact-item">
+                <a href={contact.instagram.link} target="blank" className="contact-link">
+                  <FaInstagram className="contact-icon" />
+                  <div className="contact-text">
+                    <p className="contact-title">{contact.instagram.title}</p>
+                    <p className="contact-description">{contact.instagram.content}</p>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
