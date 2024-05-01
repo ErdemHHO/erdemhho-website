@@ -1,0 +1,224 @@
+{
+	"basic_info": {
+		"description_header": "Hi",
+		"description": "👋 I'm Erdem Hacıhasanoğlu.I am a fourth-year student in Information Systems Engineering at Kocaeli University. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career background, contact information, and more on my website. Thank you ⭐",
+		"section_name": {
+			"about": "About me",
+			"projects": "Projects",
+			"skills": "Skills & Tools",
+			"experience": "Experience"
+		}
+	},
+	"projects": [
+		{
+			"title": "Hes Otomotiv E-Commerce Project",
+			"startDate": "May 2023",
+			"description": "The Hes Otomotiv E-Commerce Project is a specially designed e-commerce platform for an Istanbul-based automotive spare parts company. Developed to meet the company's needs, it features a Node.js (Express) backend, a React-based admin panel, and a user interface built with Next.js. Stock management is integrated using MongoDB database. The unique interface design is created with Bootstrap, while the project infrastructure is supported by AWS S3 and EC2 technologies. Admin panel and user interface codes are accessible on GitHub. The live version of the project can be explored on the website.",
+			"images": [
+				"images/portfolio/adventure/p1.jpg",
+				"images/portfolio/adventure/p2.jpg"
+			],
+			"url": "hes-otomotiv.com",
+			"github_url": "github.com/ErdemHHO/hes-otomotiv-admin-panel",
+			"technologies": [
+				{
+					"class": "devicon-nodejs-plain",
+					"name": "Node.js (Express)"
+				},
+				{
+					"class": "devicon-react-original",
+					"name": "React"
+				},
+				{
+					"class": "devicon-nextjs-original",
+					"name": "Next.js"
+				},
+				{
+					"class": "devicon-mongodb-plain",
+					"name": "MongoDB"
+				},
+				{
+					"class": "devicon-bootstrap-plain",
+					"name": "Bootstrap"
+				},
+				{
+					"class": "devicon-aws-plain",
+					"name": "AWS S3"
+				},
+				{
+					"class": "devicon-aws-plain",
+					"name": "AWS EC2"
+				}
+			]
+		},
+		{
+			"title": "Abalam E-Commerce Project",
+			"startDate": "May 2023",
+			"description": "The Abalam E-Commerce Project is a full-stack e-commerce platform developed for a store selling baby products. Within the project, a Node.js backend, a React-based admin panel, and a user interface built with Next.js were created. Data is stored in a MongoDB database. Bootstrap CSS library was used in the design process to achieve a modern look. The project servers are hosted on AWS EC2, and AWS S3 service is utilized for photo storage. With the integration of these technologies, the Abalam E-Commerce Project offers a robust and user-friendly e-commerce experience.",
+			"images": [
+				"images/portfolio/adventure/p1.jpg",
+				"images/portfolio/adventure/p2.jpg"
+			],
+			"github_url": "github.com/ErdemHHO/Abalam-Next-E-Ticaret",
+			"url": "abalamturkiye.com",
+			"technologies": [
+				{
+					"class": "devicon-nodejs-plain",
+					"name": "Node.js"
+				},
+				{
+					"class": "devicon-react-original",
+					"name": "React"
+				},
+				{
+					"class": "devicon-nextjs-original",
+					"name": "Next.js"
+				},
+				{
+					"class": "devicon-mongodb-plain",
+					"name": "MongoDB"
+				},
+				{
+					"class": "devicon-bootstrap-plain",
+					"name": "Bootstrap"
+				},
+				{
+					"class": "devicon-aws-plain",
+					"name": "AWS EC2"
+				},
+				{
+					"class": "devicon-aws-plain",
+					"name": "AWS S3"
+				}
+			]
+		},
+		{
+			"title": "Emin Kardeşler Project",
+			"startDate": "January 2023",
+			"description": "A custom company introduction website was developed for EMİN KARDEŞLER MAK. SAN. ve TİC. LTD. ŞTİ. The website was entirely static and customized according to the company's preferences. It was deployed on the company's own server using Plesk.",
+			"github_url": "",
+			"images": [
+				"images/portfolio/adventure/p1.jpg",
+				"images/portfolio/adventure/p2.jpg"
+			],
+			"url": "eminkardesler.com.tr"
+		},
+		{
+			"title": "My School Projects",
+			"startDate": "",
+			"description": "I had the opportunity to develop various applications at Kocaeli University. I developed many projects in areas such as web applications, deep learning, image processing, artificial intelligence using different technologies such as JavaScript, C#, Java, Python. These projects played a significant role at the beginning of my career. You can access these applications through my GitHub page.",
+			"github_url": "",
+			"images": [
+				"images/portfolio/adventure/p1.jpg",
+				"images/portfolio/adventure/p2.jpg"
+			],
+			"url": "github.com"
+		}
+	],
+	"experience": [
+		{
+			"company": "Eteration Bilişim Çözümleri A.Ş.",
+			"title": "Software Developer Intern",
+			"years": "02.2024 - present",
+			"mainTech": ["Nodejs"],
+			"technologies": [
+				"NestJS",
+				"TypeScript",
+				"PostgreSQL",
+				"Docker",
+				"Kubernetes",
+				"Redis",
+				"Kafka",
+				"Keycloak",
+				"Agile & Scrum"
+			]
+		},
+		{
+			"company": "Omreon Bilişim Teknolojileri",
+			"title": "Frontend Developer",
+			"years": "07.2023 - 10.2023",
+			"mainTech": ["React"],
+			"technologies": ["JavaScript", "AntDesign", "HTML", "CSS"]
+		},
+		{
+			"company": "GÜRİS İŞ MAKİNALARI ENDÜSTRİ A.Ş.",
+			"title": "Software Developer Intern",
+			"years": "08.2022 - 09.2022",
+			"mainTech": ["PHP"],
+			"technologies": ["MsSql", "Web Development", "HTML", "CSS", "Laravel"]
+		},
+		{
+			"company": "Emin Kardeşler LTD. STI.",
+			"title": "Software Developer Intern",
+			"years": "01.2023 - 02.2023",
+			"mainTech": [],
+			"technologies": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"company": "MG Lojistik",
+			"title": "Software Support",
+			"years": "06.2022 - 08.2022",
+			"mainTech": [],
+			"technologies": []
+		},
+		{
+			"company": "Kocaeli University",
+			"title": "Information Systems Engineering Student",
+			"years": "09.2020 - present",
+			"mainTech": [],
+			"technologies": []
+		},
+		{
+			"company": "Istanbul Anatolian High School",
+			"title": "Maths , Science",
+			"years": "09.2016 - 06.2020",
+			"mainTech": [],
+			"technologies": []
+		}
+	],
+	"contact": {
+		"sectionTitle": "Contact",
+		"email": {
+			"title": "Email",
+			"content": "erdemhho@gmail.com"
+		},
+		"linkedin": {
+			"title": "LinkedIn",
+			"content": "https://www.linkedin.com/erdemhho",
+			"link": "https://www.linkedin.com/in/erdem-hacihasanoglu/"
+		},
+		"address": {
+			"title": "Address",
+			"content": "Pendik, Istanbul, Turkey"
+		},
+		"form": {
+			"title": "Contact Me",
+			"name": {
+				"title": "Name:",
+				"placeholder": "Enter your name",
+				"error": "Name is required"
+			},
+			"surname": {
+				"title": "Surname:",
+				"placeholder": "Enter your surname",
+				"error": "Surname is required"
+			},
+			"email": {
+				"title": "Email:",
+				"placeholder": "Enter your email address",
+				"error": "Email is required"
+			},
+			"subject": {
+				"title": "Subject:",
+				"placeholder": "Enter subject",
+				"error": "Subject is required"
+			},
+			"message": {
+				"title": "Message:",
+				"placeholder": "Your message here...",
+				"error": "Message is required"
+			},
+			"submit": "Send"
+		}
+	}
+}
