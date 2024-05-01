@@ -1,0 +1,333 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Erdem Hacıhasanoğlu.I am a fourth-year student in Information Systems Engineering at Kocaeli University. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career background, contact information, and more on my website. Thank you ⭐",
+    "Pdf": "Download CV: ",
+    "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills & Tools",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Hes Otomotiv Project",
+      "startDate": "May 2023",
+      "description": "The Hes Otomotiv E-Commerce Project is a specially designed e-commerce platform for an Istanbul-based automotive spare parts company. Developed to meet the company's needs, it features a Node.js (Express) backend, a React-based admin panel, and a user interface built with Next.js. Stock management is integrated using MongoDB database. The unique interface design is created with Bootstrap, while the project infrastructure is supported by AWS S3 and EC2 technologies. Admin panel and user interface codes are accessible on GitHub. The live version of the project can be explored on the website.",
+      "images": [
+        "images/portfolio/projects/hes-otomotiv.png",
+        "images/portfolio/projects/hes-otomotiv3.png",
+        "images/portfolio/projects/hes-otomotiv2.png"
+      ],
+      "url": "https://hes-otomotiv.com",
+      "github_url": "https://github.com/ErdemHHO/hes-otomotiv-user-interface",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js (Express)"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS S3"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS EC2"
+        }
+      ]
+    },
+    {
+      "title": "Abalam Project",
+      "startDate": "May 2023",
+      "description": "The Abalam E-Commerce Project is a full-stack e-commerce platform developed for a store selling baby products. Within the project, a Node.js backend, a React-based admin panel, and a user interface built with Next.js were created. Data is stored in a MongoDB database. Bootstrap CSS library was used in the design process to achieve a modern look. The project servers are hosted on AWS EC2, and AWS S3 service is utilized for photo storage. With the integration of these technologies, the Abalam E-Commerce Project offers a robust and user-friendly e-commerce experience.",
+      "images": [
+        "images/portfolio/projects/abalamturkiye.png",
+        "images/portfolio/projects/abalamturkiye3.png",
+        "images/portfolio/projects/abalamturkiye2.png"
+      ],
+      "github_url": "https://github.com/ErdemHHO/Abalam-Next-E-Ticaret",
+      "url": "https://abalamturkiye.com",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS EC2"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS S3"
+        }
+      ]
+    },
+    {
+      "title": "Emin Kardeşler Project",
+      "startDate": "January 2023",
+      "description": "A custom company introduction website was developed for EMİN KARDEŞLER MAK. SAN. ve TİC. LTD. ŞTİ. The website was entirely static and customized according to the company's preferences. It was deployed on the company's own server using Plesk.",
+      "images": [
+        "images/portfolio/projects/eminkardesler.png",
+        "images/portfolio/projects/eminkardesler3.png",
+        "images/portfolio/projects/eminkardesler2.png"
+      ],
+      "url": "http://www.eminkardesler.com.tr/",
+      "github_url": "https://github.com/ErdemHHO/EMKA-Static-WebSite",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "My School Projects",
+      "startDate": "Since September 2020",
+      "description": "I had the opportunity to develop various applications at Kocaeli University. I developed many projects in areas such as web applications, deep learning, image processing, artificial intelligence using different technologies such as JavaScript, C#, Java, Python. These projects played a significant role at the beginning of my career. You can access these applications through my GitHub page.",
+      "images": [
+        "images/portfolio/projects/school.png",
+        "images/portfolio/projects/puzzle.png",
+        "images/portfolio/projects/puzzle2.png",
+        "images/portfolio/projects/url-shortener.png",
+        "images/portfolio/projects/url-shortener2.png",
+        "images/portfolio/projects/url-shortener3.png",
+        "images/portfolio/projects/url-shortener4.png",
+        "images/portfolio/projects/url-shortener5.png",
+        "images/portfolio/projects/staj1.png",
+        "images/portfolio/projects/staj2.png",
+        "images/portfolio/projects/staj3.png",
+        "images/portfolio/projects/staj4.png"
+      ],
+      "url": "https://github.com/ErdemHHO",
+      "github_url": "https://github.com/ErdemHHO",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-moleculer-original",
+          "name": "And Much More..."
+        }
+      ]
+    },
+    {
+      "title": "My Personal Website",
+      "startDate": "May 2024",
+      "description": "I developed my personal website to introduce myself, showcase my projects, and share my experiences. The website was built using React, a popular JavaScript library, and styled with CSS. The website is hosted on GitHub Pages and is accessible to everyone. The source code is available on GitHub.",
+      "images": ["images/portfolio/projects/personal-website.png", "images/portfolio/projects/personal-website2.png"],
+      "url": "https://erdemhho.com",
+      "github_url": "https://github.com/ErdemHHO/erdemhho-website",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-github-original",
+          "name": "GitHub"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "Other Business Projects",
+      "startDate": "Since 2021",
+      "description": "I have been involved in numerous projects at the companies I've worked for, utilizing technologies such as Node.js (Express & Nest.js), React, PHP, and others. For more detailed information, you can review my CV or reach out to me through my contact details.",
+      "images": ["images/portfolio/projects/business.png"],
+      "url": null,
+      "github_url": null,
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nestjs-original",
+          "name": "Nest.js"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "Php"
+        },
+        {
+          "class": "devicon-moleculer-original",
+          "name": "And Much More..."
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Eteration Bilişim Çözümleri A.Ş.",
+      "title": "Software Developer Intern",
+      "years": "02.2024 - present",
+      "mainTech": ["Nodejs"],
+      "technologies": [
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Redis",
+        "Kafka",
+        "Keycloak",
+        "Agile & Scrum"
+      ]
+    },
+    {
+      "company": "Omreon Bilişim Teknolojileri",
+      "title": "Frontend Developer",
+      "years": "07.2023 - 10.2023",
+      "mainTech": ["React"],
+      "technologies": ["JavaScript", "AntDesign", "HTML", "CSS"]
+    },
+    {
+      "company": "GÜRİS İŞ MAKİNALARI ENDÜSTRİ A.Ş.",
+      "title": "Software Developer Intern",
+      "years": "08.2022 - 09.2022",
+      "mainTech": ["PHP"],
+      "technologies": ["MsSql", "Web Development", "HTML", "CSS", "Laravel"]
+    },
+    {
+      "company": "Emin Kardeşler LTD. STI.",
+      "title": "Software Developer Intern",
+      "years": "01.2023 - 02.2023",
+      "mainTech": [],
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "company": "MG Lojistik",
+      "title": "Software Support",
+      "years": "06.2022 - 08.2022",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Kocaeli University",
+      "title": "Information Systems Engineering Student",
+      "years": "09.2020 - present",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Istanbul Anatolian High School",
+      "title": "Maths , Science",
+      "years": "09.2016 - 06.2020",
+      "mainTech": [],
+      "technologies": []
+    }
+  ],
+  "contact": {
+    "sectionTitle": "Contact & Social Media",
+    "email": {
+      "title": "Email",
+      "content": "erdemhho@gmail.com"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "content": "https://www.linkedin.com/erdemhho",
+      "link": "https://www.linkedin.com/in/erdem-hacihasanoglu/"
+    },
+    "address": {
+      "title": "Address",
+      "content": "Pendik, Istanbul, Turkey"
+    },
+    "medium": {
+      "title": "Medium",
+      "content": "https://medium.com/@erdemhho",
+      "link": "https://medium.com/@erdemhho"
+    },
+    "github": {
+      "title": "GitHub",
+      "content": "https://github.com/ErdemHHO",
+      "link": "https://github.com/ErdemHHO"
+    },
+    "instagram": {
+      "title": "Instagram",
+      "content": "https://www.instagram.com/erdemhho",
+      "link": "https://www.instagram.com/erdemhho/"
+    }
+  }
+}
