@@ -1,15 +1,29 @@
 import React, { Component } from 'react'
 import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaMedium } from 'react-icons/fa'
 import { FaMapLocationDot } from 'react-icons/fa6'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 class Contact extends Component {
+  componentDidMount() {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out'
+    })
+  }
+
+  componentDidUpdate() {
+    AOS.refresh()
+  }
+
   render() {
     const contact = this.props.resumeBasicInfo
     console.log(contact)
     if (!contact) return null
 
     return (
-      <div className="contact">
+      <div data-aos="fade-up" className="contact">
         <h1 className="section-title" style={{ color: 'black' }}>
           <span className="text-black" style={{ textAlign: 'center' }}>
             {contact.sectionTitle}

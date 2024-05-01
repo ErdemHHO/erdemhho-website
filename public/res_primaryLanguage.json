@@ -2,6 +2,8 @@
   "basic_info": {
     "description_header": "Hi",
     "description": "👋 I'm Erdem Hacıhasanoğlu.I am a fourth-year student in Information Systems Engineering at Kocaeli University. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career background, contact information, and more on my website. Thank you ⭐",
+    "Pdf": "Download CV: ",
+    "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -121,6 +123,7 @@
       "startDate": "Since September 2020",
       "description": "I had the opportunity to develop various applications at Kocaeli University. I developed many projects in areas such as web applications, deep learning, image processing, artificial intelligence using different technologies such as JavaScript, C#, Java, Python. These projects played a significant role at the beginning of my career. You can access these applications through my GitHub page.",
       "images": [
+        "images/portfolio/projects/school.png",
         "images/portfolio/projects/puzzle.png",
         "images/portfolio/projects/puzzle2.png",
         "images/portfolio/projects/url-shortener.png",
@@ -178,11 +181,7 @@
       "title": "My Personal Website",
       "startDate": "May 2024",
       "description": "I developed my personal website to introduce myself, showcase my projects, and share my experiences. The website was built using React, a popular JavaScript library, and styled with CSS. The website is hosted on GitHub Pages and is accessible to everyone. The source code is available on GitHub.",
-      "images": [
-        "images/portfolio/projects/personal-website.png",
-        "images/portfolio/projects/personal-website2.png",
-        "images/portfolio/projects/personal-website3.png"
-      ],
+      "images": ["images/portfolio/projects/personal-website.png", "images/portfolio/projects/personal-website2.png"],
       "url": "https://erdemhho.com",
       "github_url": "https://github.com/ErdemHHO/erdemhho-website",
       "technologies": [
@@ -201,6 +200,40 @@
         {
           "class": "devicon-amazonwebservices-plain-wordmark",
           "name": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "Other Business Projects",
+      "startDate": "Since 2021",
+      "description": "I have been involved in numerous projects at the companies I've worked for, utilizing technologies such as Node.js (Express & Nest.js), React, PHP, and others. For more detailed information, you can review my CV or reach out to me through my contact details.",
+      "images": ["images/portfolio/projects/business.png"],
+      "url": null,
+      "github_url": null,
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nestjs-original",
+          "name": "Nest.js"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "Php"
+        },
+        {
+          "class": "devicon-moleculer-original",
+          "name": "And Much More..."
         }
       ]
     }

@@ -80,11 +80,13 @@ class ProjectDetailsModal extends Component {
             </h3>
             <p className="modal-description">{description} </p>
             <ul className="list-inline mx-auto">
-              <li className="list-inline-item mx-3">
-                <a href={github_url} target="_blank" rel="noopener noreferrer">
-                  Github: {github_url}
-                </a>
-              </li>
+              {github_url ? (
+                <li className="list-inline-item mx-3">
+                  <a href={github_url} target="_blank" rel="noopener noreferrer" className="project_link">
+                    Github: {github_url}
+                  </a>
+                </li>
+              ) : null}
             </ul>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
