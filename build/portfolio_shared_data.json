@@ -1,0 +1,143 @@
+{
+    "basic_info": {
+      "name": "Erdem Hacıhasanoğlu",
+      "titles": [ "Information Systems Engineer","Backend Developer", "Frontend Developer", "Junior Software Developer", "Javascript Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/ErdemHHO",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/erdemhho",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "./portfolio/myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+          {
+            "name": "Nodejs",
+            "class": "devicon-nodejs-plain-wordmark",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "Express",
+            "class": "devicon-express-original",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "Nestjs",
+            "class": "devicon-nestjs-plain",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "PostgreSQL",
+            "class": "devicon-postgresql-plain",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "MySQL",
+            "class": "devicon-mysql-plain",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "MsSQL",
+            "class": "devicon-microsoftsqlserver-plain",
+            "level": "100",
+            "type": "backend"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name": "Nextjs",
+            "class": "devicon-nextjs-original-wordmark",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name": "Angular",
+            "class": "devicon-angularjs-plain",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name":"Html",
+            "class":"devicon-html5-plain",
+            "level":"100",
+            "type":"frontend"
+          },
+          {
+            "name":"Css",
+            "class":"devicon-css3-plain",
+            "level":"100",
+            "type":"frontend"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name": "Bootstrap",
+            "class": "devicon-bootstrap-plain",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name": "Tailwind",
+            "class": "devicon-tailwindcss-plain",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name": "TypeScript",
+            "class": "devicon-typescript-plain",
+            "level": "100",
+            "type": "frontend"
+          },
+          {
+            "name": "AWS",
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "level": "100",
+            "type": "tools"
+          },
+          {
+            "name": "Git",
+            "class": "devicon-git-plain",
+            "level": "100",
+            "type": "tools"
+          },
+          {
+            "name": "Kubernetes",
+            "class": "devicon-kubernetes-plain",
+            "level": "100",
+            "type": "tools"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "100",
+            "type": "tools"
+          }
+        ]        
+    }
+  }
