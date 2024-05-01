@@ -1,7 +1,21 @@
 import React, { Component } from 'react'
 import ProjectDetailsModal from './ProjectDetailsModal'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 class Projects extends Component {
+  componentDidMount() {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out'
+    })
+  }
+
+  componentDidUpdate() {
+    AOS.refresh()
+  }
+
   constructor(props) {
     super(props)
     this.state = {
@@ -21,7 +35,7 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div className="col-sm-12 col-md-6 col-lg-4" key={projects.title} style={{ cursor: 'pointer' }}>
-            <span className="portfolio-item d-block">
+            <span className="portfolio-item d-block" data-aos="fade-up">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
                   <img

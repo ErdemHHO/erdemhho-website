@@ -172,7 +172,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	width: 300px;
 }
 
 .polaroid span {
@@ -479,5 +479,9 @@ footer a:focus {
   }
   .bgDark{
 	background: #1F1F1F;
+  }
+
+  .project_link{
+	color:#000 !important;
   }
 

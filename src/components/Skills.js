@@ -1,6 +1,19 @@
 import React, { Component } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 class Skills extends Component {
+  componentDidMount() {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out'
+    })
+  }
+
+  componentDidUpdate() {
+    AOS.refresh()
+  }
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.skills
@@ -8,7 +21,7 @@ class Skills extends Component {
         return (
           <li className="list-inline-item mx-3" key={i}>
             <span>
-              <div className="text-center skills-tile">
+              <div className="text-center skills-tile" data-aos="fade-up">
                 <i className={skills.class} style={{ fontSize: '220%' }}>
                   <p className="text-center" style={{ fontSize: '30%', marginTop: '4px' }}>
                     {skills.name}

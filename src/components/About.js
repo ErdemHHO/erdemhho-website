@@ -1,10 +1,25 @@
 import React, { Component } from 'react'
 import { Icon } from '@iconify/react'
-import angularIcon from '@iconify/icons-logos/angular-icon'
-import reactIcon from '@iconify/icons-logos/react'
-import vueIcon from '@iconify/icons-logos/vue'
+import typescriptIcon from '@iconify/icons-logos/typescript-icon'
+import nodejs from '@iconify/icons-logos/nodejs'
+import javascript from '@iconify/icons-logos/javascript'
+import { FaFilePdf } from 'react-icons/fa6'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 class About extends Component {
+  componentDidMount() {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out'
+    })
+  }
+
+  componentDidUpdate() {
+    AOS.refresh()
+  }
+
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = 'images/' + this.props.sharedBasicInfo.image
@@ -13,10 +28,11 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about
       var hello = this.props.resumeBasicInfo.description_header
       var about = this.props.resumeBasicInfo.description
+      var Cv_Link = this.props.resumeBasicInfo.Cv_Link
+      var Pdf = this.props.resumeBasicInfo.Pdf
     }
-
     return (
-      <section id="about">
+      <section data-aos="fade-up" id="about">
         <div className="col-md-12">
           <h1 style={{ color: 'black' }}>
             <span>{sectionName}</span>
@@ -26,9 +42,9 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: 'auto' }}>
                   <img height="250px" src={profilepic} alt="Avatar placeholder" />
-                  <Icon icon={angularIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
-                  <Icon icon={reactIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
-                  <Icon icon={vueIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
+                  <Icon icon={typescriptIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
+                  <Icon icon={nodejs} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
+                  <Icon icon={javascript} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
                 </span>
               </div>
             </div>
@@ -54,6 +70,11 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <br />
+                    <span>{Pdf}</span>
+                    <a href={Cv_Link} target="_blank" rel="noopener noreferrer">
+                      <FaFilePdf size={32} className="pdfIcon" />
+                    </a>
                   </div>
                 </div>
               </div>
