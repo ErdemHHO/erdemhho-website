@@ -1,38 +1,38 @@
 body[data-theme='light'] {
-	@import '../light-slider.scss';
+  @import '../light-slider.scss';
 
-	.slider-tab {
-		background-color: #d7caaa;
-	}
+  .slider-tab {
+    background-color: #d7caaa;
+  }
 
-    .experience {
-		color: #1f1f1f;
-	}
+  .experience {
+    color: #1f1f1f;
+  }
 
-	.bgYellow {
-		background: #efe1bd;
-	}
-	.bgDark {
-		background: #6b6b6b;
-	}
+  .bgYellow {
+    background: #efe1bd;
+  }
+  .bgDark {
+    background: #6b6b6b;
+  }
 
-	.contact {
-		background-color: #fff;
-	}
-	.contact-icon {
-		color: #000;
-	}
-	.contact-link {
-		color: #1f1f1f !important;
-	}
-	.contact-title {
-		color: #1f1f1f;
-	}
-	.contact-description {
-		color: #1f1f1f;
-	}
+  .contact {
+    background-color: #fff;
+  }
+  .contact-icon {
+    color: #000;
+  }
+  .contact-link {
+    color: #1f1f1f !important;
+  }
+  .contact-title {
+    color: #1f1f1f;
+  }
+  .contact-description {
+    color: #1f1f1f;
+  }
 
-	.pdfIcon {
-		color: #E71A23;
-	}
+  .pdfIcon {
+    color: #e71a23;
+  }
 }

@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Erdem Hacıhasanoğlu.I am a fourth-year student in Information Systems Engineering at Kocaeli University. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career history, contact information, and more on my website. Thank you ⭐",
+    "description": "👋 I'm Erdem Hacıhasanoğlu.I graduated from Kocaeli University, Department of Information Systems Engineering. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career history, contact information, and more on my website. Thank you ⭐",
     "Pdf": "Download CV: ",
     "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
     "section_name": {
@@ -239,6 +239,25 @@
     }
   ],
   "experience": [
+    {
+      "company": "Eteration Bilişim Çözümleri A.Ş.",
+      "title": "Software Developer",
+      "years": "04.2024 - present",
+      "mainTech": ["Nodejs", "React"],
+      "technologies": [
+        "NestJS",
+        "React",
+        "Nextjs",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Redis",
+        "Kafka",
+        "Keycloak",
+        "Agile & Scrum"
+      ]
+    },
     {
       "company": "Eteration Bilişim Çözümleri A.Ş.",
       "title": "Software Developer Intern",

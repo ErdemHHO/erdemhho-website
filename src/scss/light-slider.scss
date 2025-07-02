@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #D7CAAA;
+$organic-arrow-color: #d7caaa;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -12,11 +12,11 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color:#BFAA76;
+$loader-bar-color: #bfaa76;
 $loader-bar-height: 6px;
-$control-bullet-color: #D7CAAA;
-$control-bullet-active-color: #D7CAAA;
-$content-background-color: #D7CAAA;
+$control-bullet-color: #d7caaa;
+$control-bullet-active-color: #d7caaa;
+$content-background-color: #d7caaa;
 
 %fill-parent {
   display: block;
@@ -216,22 +216,18 @@ $content-background-color: #D7CAAA;
   }
   &--moveRight {
     // transform: translate3d(100%, 0, 0);
-    animation: slideFromRight var(--slider-transition-duration) both
-      var(--transition-bezier);
+    animation: slideFromRight var(--slider-transition-duration) both var(--transition-bezier);
   }
   &--moveLeft {
-    animation: slideFromLeft var(--slider-transition-duration) both
-      var(--transition-bezier);
+    animation: slideFromLeft var(--slider-transition-duration) both var(--transition-bezier);
   }
   &--exit {
     z-index: 0;
     &.#{$root-element}--moveLeft {
-      animation: slideToLeft var(--slider-transition-duration) both
-        var(--transition-bezier);
+      animation: slideToLeft var(--slider-transition-duration) both var(--transition-bezier);
     }
     &.#{$root-element}--moveRight {
-      animation: slideToRight var(--slider-transition-duration) both
-        var(--transition-bezier);
+      animation: slideToRight var(--slider-transition-duration) both var(--transition-bezier);
     }
   }
   &--first {
@@ -276,7 +272,8 @@ $content-background-color: #D7CAAA;
       overflow: hidden;
       cursor: pointer;
       border: none;
-      transition: transform 0.225s cubic-bezier(0.8, 1.35, 0.75, 1.45),
+      transition:
+        transform 0.225s cubic-bezier(0.8, 1.35, 0.75, 1.45),
         background-color 0.175s ease-out;
 
       &:hover {
@@ -302,23 +299,21 @@ $content-background-color: #D7CAAA;
     height: var(--organic-arrow-height);
     position: relative;
     display: block;
-    transition: transform 0.2s ease-out 0.125s, opacity 0.2s ease-out;
+    transition:
+      transform 0.2s ease-out 0.125s,
+      opacity 0.2s ease-out;
     &:before,
     &:after {
       content: ' ';
       position: absolute;
-      right: calc(
-        50% -
-          (
-            #{$cos45} * (var(--organic-arrow-height) +
-                  var(--organic-arrow-thickness))
-          ) / 2
-      );
+      right: calc(50% - (#{$cos45} * (var(--organic-arrow-height) + var(--organic-arrow-thickness))) / 2);
       height: 100%;
       border-radius: var(--organic-arrow-border-radius);
       width: var(--organic-arrow-thickness);
       background-color: var(--organic-arrow-color);
-      transition: transform 0.15s ease-out, background-color 0.15s ease-out;
+      transition:
+        transform 0.15s ease-out,
+        background-color 0.15s ease-out;
     }
     &:before {
       transform-origin: 100% 100% 0;
@@ -348,13 +343,7 @@ $content-background-color: #D7CAAA;
     &:before,
     &:after {
       right: auto;
-      left: calc(
-        50% -
-          (
-            #{$cos45} * (var(--organic-arrow-height) +
-                  var(--organic-arrow-thickness))
-          ) / 2
-      );
+      left: calc(50% - (#{$cos45} * (var(--organic-arrow-height) + var(--organic-arrow-thickness))) / 2);
     }
     &:before {
       transform-origin: 0 100% 0;
