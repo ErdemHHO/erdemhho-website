@@ -37,3 +37,4 @@ jobs:
             docker pull ${{ secrets.DOCKERHUB_USERNAME }}/erdemhho:website-latest
             docker rm -f erdemhho-fe-container || true
             docker run -d --name erdemhho-fe-container -p 3006:3000 ${{ secrets.DOCKERHUB_USERNAME }}/erdemhho:website-latest
+            docker image prune -f
