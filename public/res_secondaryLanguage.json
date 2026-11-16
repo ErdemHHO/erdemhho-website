@@ -1,21 +1,27 @@
 {
   "basic_info": {
     "description_header": "Merhaba",
-    "description": "👋 Ben Erdem Hacıhasanoğlu. Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği dördüncü sınıf öğrencisiyim. JavaScript programlama dili ve ilgili teknolojilere odaklanmış tutkulu bir yazılım geliştiriciyim. Becerilerimi, projelerimi, kariyer geçmişimi, iletişim bilgilerimi ve daha fazlasını web sitemde bulabilirsiniz. Teşekkürler ⭐",
-    "Pdf": "CV: ",
+    "description": "👋 Ben Erdem Hacıhasanoğlu. Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği mezunuyum ve yaklaşık 3 yıllık full stack deneyime sahip bir yazılım mühendisiyim. Backend tarafında Node.js ve NestJS, frontend tarafında React ve Next.js ile çalışıyorum. Uzun dönem stajyer olarak başlayıp tam zamanlı kadroya geçtiğim Eteration'da Türkiye Sigorta ve Madame Coco için büyük ölçekli projelerde API tasarımı, veritabanı yönetimi, ERP, depo ve e-ticaret sistemleri entegrasyonları üzerinde çalıştım; Kafka, Debezium, Keycloak, OpenTelemetry ve Kubernetes kullanılan olay tabanlı mikroservis mimarilerine katkı sağladım. Ölçeklenebilir ve sürdürülebilir yazılımlar geliştirebileceğim backend veya full stack pozisyonları arıyorum.",
+    "Pdf": "CV'mi İndir",
     "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
     "section_name": {
       "about": "Hakkımda",
       "projects": "Projeler",
       "skills": "Beceriler & Araçlar",
       "experience": "Deneyim"
+    },
+    "skill_types": {
+      "backend": "Backend",
+      "database": "Veritabanları",
+      "frontend": "Frontend",
+      "tools": "DevOps & Araçlar"
     }
   },
   "projects": [
     {
-      "title": "Hes Otomotiv Projesi",
-      "startDate": "Mayıs 2023",
-      "description": "Hes Otomotiv E-Ticaret Projesi, İstanbul merkezli bir otomotiv yedek parça şirketi için özel olarak tasarlanmış bir e-ticaret platformudur. Şirketin ihtiyaçlarını karşılamak amacıyla geliştirilen projede, bir Node.js (Express) backend, bir React tabanlı yönetici paneli ve Next.js ile oluşturulmuş bir kullanıcı arayüzü bulunmaktadır. Stok yönetimi MongoDB veritabanı kullanılarak entegre edilmiştir. Benzersiz arayüz tasarımı Bootstrap ile oluşturulurken, proje altyapısı AWS S3 ve EC2 teknolojileri tarafından desteklenmektedir. Yönetici paneli ve kullanıcı arayüzü kodları GitHub üzerinden erişilebilir durumdadır. Projenin canlı versiyonuna web sitesinden ulaşılabilir.",
+      "title": "Hes Otomotiv E-Ticaret",
+      "startDate": "Freelance · Mayıs 2023'ten beri",
+      "description": "İstanbul merkezli bir otomotiv yedek parça firması için geliştirdiğim, hâlâ yayında olan ve bakımını sürdürdüğüm özel bir e-ticaret platformu. Stok yönetimi için MongoDB kullanan Node.js (Express) backend, React yönetim paneli ve Next.js mağaza arayüzünden oluşuyor; AWS EC2 üzerinde çalışıyor, dosyalar S3'te tutuluyor. Yönetim paneli ve arayüz kodları GitHub'da.",
       "images": [
         "images/portfolio/projects/hes-otomotiv.png",
         "images/portfolio/projects/hes-otomotiv3.png",
@@ -55,9 +61,9 @@
       ]
     },
     {
-      "title": "Abalam Projesi",
-      "startDate": "Mayıs 2023",
-      "description": "Abalam E-Ticaret Projesi, bebek ürünleri satan bir mağaza için geliştirilmiş full-stack bir e-ticaret platformudur. Projede, bir Node.js backend, bir React tabanlı yönetici paneli ve Next.js ile oluşturulmuş bir kullanıcı arayüzü bulunmaktadır. Veriler MongoDB veritabanında depolanmaktadır. Modern bir görünüm elde etmek için tasarım sürecinde Bootstrap CSS kütüphanesi kullanılmıştır. Projedeki sunucular AWS EC2'de barındırılmakta olup, fotoğraf depolaması için AWS S3 hizmeti kullanılmaktadır. Bu teknolojilerin entegrasyonuyla, Abalam E-Ticaret Projesi güçlü ve kullanıcı dostu bir e-ticaret deneyimi sunmaktadır.",
+      "title": "Abalam E-Ticaret",
+      "startDate": "Freelance · Mayıs 2023'ten beri",
+      "description": "Bebek ürünleri satan bir mağaza için geliştirdiğim, hâlâ yayında olan ve bakımını sürdürdüğüm full stack e-ticaret platformu. MongoDB kullanan Node.js backend, React yönetim paneli ve Next.js mağaza arayüzünden oluşuyor; AWS EC2 üzerinde çalışıyor, ürün fotoğrafları S3'te tutuluyor.",
       "images": [
         "images/portfolio/projects/abalamturkiye.png",
         "images/portfolio/projects/abalamturkiye3.png",
@@ -97,9 +103,49 @@
       ]
     },
     {
-      "title": "Emin Kardeşler Projesi",
+      "title": "Eteration Projeleri",
+      "startDate": "2024 – 2026",
+      "description": "Eteration'da Türkiye Sigorta ve Madame Coco için büyük ölçekli projelerde çalıştım: Türkiye Sigorta mobil hızlı satış akışı ve Saha360 saha satış uygulaması için NestJS servisleri (SOAP'tan REST'e entegrasyon), full stack bir izleme paneli (NestJS, Next.js, Keycloak, WebSocket, Kafka, Debezium, InfluxDB), Madame Coco ERP'si ile Horoz Lojistik depo sistemleri arasındaki entegrasyon katmanı ve Madame Coco Avrupa e-ticaret sitesinin arkasındaki middleware platformu. Ayrıca NestJS, Spring Boot ve React Native ile geliştirilen sosyal medya ve web scraping analiz platformu Reportback'te yer aldım.",
+      "images": [
+        "images/portfolio/projects/business.png"
+      ],
+      "url": null,
+      "github_url": null,
+      "technologies": [
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-nextjs-plain",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-apachekafka-original",
+          "name": "Kafka"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        },
+        {
+          "class": "fas fa-ellipsis-h",
+          "name": "Ve Daha Fazlası..."
+        }
+      ]
+    },
+    {
+      "title": "Emin Kardeşler Web Sitesi",
       "startDate": "Ocak 2023",
-      "description": "EMİN KARDEŞLER MAK. SAN. ve TİC. LTD. ŞTİ. için özel bir şirket tanıtım web sitesi geliştirildi. Web sitesi tamamen statiktir ve şirketin tercihlerine göre özelleştirilmiştir. Plesk kullanılarak şirketin kendi sunucusuna dağıtılmıştır.",
+      "description": "Emin Kardeşler Makina'daki stajım sırasında firmanın isteklerine göre hazırladığım statik kurumsal web sitesi. Plesk ile firmanın kendi sunucusuna yayınlandı.",
       "images": [
         "images/portfolio/projects/eminkardesler.png",
         "images/portfolio/projects/eminkardesler3.png",
@@ -120,8 +166,8 @@
     },
     {
       "title": "Okul Projelerim",
-      "startDate": "Eylül 2020'den beri",
-      "description": "Kocaeli Üniversitesi'nde çeşitli uygulamalar geliştirme fırsatı buldum. Web uygulamaları, derin öğrenme, görüntü işleme, yapay zeka gibi alanlarda JavaScript, C#, Java, Python gibi farklı teknolojiler kullanarak birçok proje geliştirdim. Bu projeler, kariyerimin başlangıcında önemli bir rol oynadı. Bu uygulamalara GitHub sayfam üzerinden erişebilirsiniz.",
+      "startDate": "2020 – 2024",
+      "description": "Kocaeli Üniversitesi'nde web geliştirme, derin öğrenme, görüntü işleme ve yapay zeka alanlarında JavaScript, C#, Java ve Python ile geliştirdiğim ders projeleri. Hepsine GitHub sayfamdan ulaşabilirsiniz.",
       "images": [
         "images/portfolio/projects/school.png",
         "images/portfolio/projects/puzzle.png",
@@ -172,7 +218,7 @@
           "name": "CSS"
         },
         {
-          "class": "devicon-moleculer-original",
+          "class": "fas fa-ellipsis-h",
           "name": "Ve Daha Fazlası..."
         }
       ]
@@ -180,8 +226,11 @@
     {
       "title": "Kişisel Web Sitem",
       "startDate": "Mayıs 2024",
-      "description": "Kendimi tanıtmak, projelerimi sergilemek ve deneyimlerimi paylaşmak için kişisel bir web sitesi geliştirdim. Web sitesi, popüler bir JavaScript kütüphanesi olan React ile oluşturulmuş ve CSS ile tasarlanmıştır. Kaynak kodları GitHub üzerinde mevcuttur.",
-      "images": ["images/portfolio/projects/personal-website.png", "images/portfolio/projects/personal-website2.png"],
+      "description": "Kendimi tanıttığım, projelerimi ve deneyimlerimi paylaştığım bu web sitesi. React, Bootstrap ve Sass ile geliştirildi; Docker ile paketlenip GitHub Actions ile otomatik olarak yayınlanıyor. Kaynak kodları GitHub'da.",
+      "images": [
+        "images/portfolio/projects/personal-website.png",
+        "images/portfolio/projects/personal-website2.png"
+      ],
       "url": "https://erdemhho.com",
       "github_url": "https://github.com/ErdemHHO/erdemhho-website",
       "technologies": [
@@ -190,138 +239,175 @@
           "name": "React"
         },
         {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
         },
         {
-          "class": "devicon-github-original",
-          "name": "GitHub"
+          "class": "devicon-sass-original",
+          "name": "Sass"
         },
         {
-          "class": "devicon-amazonwebservices-plain-wordmark",
-          "name": "AWS"
-        }
-      ]
-    },
-    {
-      "title": "Diğer İş Projeleri",
-      "startDate": "2021'den beri",
-      "description": "Çalıştığım şirketlerde Node.js (Express & Nest.js), React, PHP vb teknolojileri kullanarak çok sayıda projede yer aldım. Daha detaylı bilgi için CV'mi inceleyebilir veya iletişim bilgilerimden bana ulaşabilirsiniz.",
-      "images": ["images/portfolio/projects/business.png"],
-      "url": null,
-      "github_url": null,
-      "technologies": [
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
+          "class": "devicon-docker-plain",
+          "name": "Docker"
         },
         {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-nestjs-original",
-          "name": "Nest.js"
-        },
-        {
-          "class": "devicon-express-original-wordmark",
-          "name": "Express"
-        },
-        {
-          "class": "devicon-php-plain",
-          "name": "Php"
-        },
-        {
-          "class": "devicon-moleculer-original",
-          "name": "Ve Daha Fazlası..."
+          "class": "devicon-githubactions-plain",
+          "name": "GitHub Actions"
         }
       ]
     }
   ],
   "experience": [
     {
+      "type": "work",
       "company": "Eteration Bilişim Çözümleri A.Ş.",
-      "title": "Yazılım Geliştirici",
-      "years": "04.2024 - present",
-      "mainTech": ["Nodejs", "React"],
+      "title": "Yazılım Mühendisi",
+      "years": "07.2025 - 10.2026",
+      "mainTech": [
+        "NestJS",
+        "Full Stack"
+      ],
+      "description": [
+        "Türkiye Sigorta – Online Hızlı Satış: Mobil uygulamanın hızlı satın alma ekranlarının arkasındaki NestJS servisleri ve REST uç noktaları; Redis önbellekleme ve OpenTelemetry izleme.",
+        "Türkiye Sigorta – Saha360: Saha satış ve müşteri ilişkileri mobil uygulamasının NestJS backend'i; SOAP tabanlı iç servislerin REST API olarak sunulması."
+      ],
       "technologies": [
         "NestJS",
+        "TypeScript",
+        "Redis",
+        "OpenTelemetry",
+        "SOAP",
+        "REST",
+        "Mikroservis",
+        "Unit Test",
+        "Agile & Scrum"
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Eteration Bilişim Çözümleri A.Ş.",
+      "title": "Asistan Yazılım Mühendisi",
+      "years": "05.2024 - 07.2025",
+      "mainTech": [
+        "NestJS",
+        "Next.js"
+      ],
+      "description": [
+        "Madame Coco – İzleme Paneli: Keycloak ile rol tabanlı yetkilendirme, WebSocket ile gerçek zamanlı bildirimler ve Kafka + Debezium veri akışı içeren full stack uygulama.",
+        "Madame Coco – Horoz Lojistik Entegrasyonu: ERP ile depo sistemleri arasındaki NestJS entegrasyon katmanı.",
+        "Eteration – Reportback: Sosyal medya ve web scraping analiz platformu (NestJS, Spring Boot, React Native)."
+      ],
+      "technologies": [
+        "NestJS",
+        "Next.js",
         "React",
-        "Nextjs",
-        "TypeScript",
-        "PostgreSQL",
-        "Docker",
-        "Kubernetes",
-        "Redis",
         "Kafka",
+        "Debezium",
         "Keycloak",
-        "Agile & Scrum"
+        "PostgreSQL",
+        "InfluxDB",
+        "WebSocket",
+        "Kubernetes"
       ]
     },
     {
+      "type": "work",
       "company": "Eteration Bilişim Çözümleri A.Ş.",
-      "title": "Yazılım Geliştirici Stajyeri",
-      "years": "02.2024 - 04.2024",
-      "mainTech": ["Nodejs"],
+      "title": "Yazılım Mühendisi Stajyeri",
+      "years": "02.2024 - 05.2024",
+      "mainTech": [
+        "NestJS"
+      ],
+      "description": [
+        "Madame Coco – Avrupa E-Ticaret: Yurt dışı depo operasyonlarını, web sitesi iletişimini ve ERP senkronizasyonunu yöneten NestJS middleware platformu."
+      ],
       "technologies": [
         "NestJS",
         "TypeScript",
         "PostgreSQL",
-        "Docker",
-        "Kubernetes",
         "Redis",
         "Kafka",
         "Keycloak",
-        "Agile & Scrum"
+        "Docker",
+        "Kubernetes"
       ]
     },
     {
-      "company": "Omreon Bilişim Teknolojileri",
-      "title": "Frontend Geliştirici",
-      "years": "07.2023 - 10.2023",
-      "mainTech": ["React"],
-      "technologies": ["JavaScript", "AntDesign", "HTML", "CSS"]
+      "type": "work",
+      "company": "Omreon Technology",
+      "title": "Frontend Geliştirici (Stajyer, ardından Yarı Zamanlı)",
+      "years": "08.2023 - 11.2023",
+      "mainTech": [
+        "React",
+        "Angular"
+      ],
+      "description": [
+        "Turkcell DSS Suite: Çeşitli Turkcell servislerini bir araya getiren platform için React ve Angular ile arayüz geliştirme.",
+        "Network Scanner: Omreon'un kendi ürünlerinden birinin React ve Ant Design arayüzü."
+      ],
+      "technologies": [
+        "JavaScript",
+        "Ant Design",
+        "HTML",
+        "CSS"
+      ]
     },
     {
-      "company": "GÜRİS İŞ MAKİNALARI ENDÜSTRİ A.Ş.",
-      "title": "Yazılım Geliştirici Stajyeri",
-      "years": "08.2022 - 09.2022",
-      "mainTech": ["PHP"],
-      "technologies": ["MsSql", "Web Geliştirme", "HTML", "CSS", "Laravel"]
-    },
-    {
-      "company": "Emin Kardeşler LTD. STI.",
+      "type": "work",
+      "company": "Emin Kardeşler Makina San. Tic. Ltd. Şti.",
       "title": "Yazılım Geliştirici Stajyeri",
       "years": "01.2023 - 02.2023",
       "mainTech": [],
-      "technologies": ["HTML", "CSS", "JavaScript"]
+      "description": [
+        "Firmanın isteklerine göre özel, statik bir kurumsal web sitesi geliştirdim."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
-      "company": "MG Lojistik",
-      "title": "Yazılım Desteği",
-      "years": "06.2022 - 08.2022",
-      "mainTech": [],
-      "technologies": []
+      "type": "work",
+      "company": "Güriş İş Makinaları Endüstri A.Ş.",
+      "title": "Yazılım Geliştirici Stajyeri",
+      "years": "08.2022 - 09.2022",
+      "mainTech": [
+        "PHP"
+      ],
+      "description": [
+        "Müşterilerin beton hizmetlerini, satın alma miktarlarını ve ilgili işlemleri takip edebildiği bir web uygulaması tasarlayıp geliştirdim."
+      ],
+      "technologies": [
+        "MSSQL",
+        "Web Geliştirme",
+        "HTML",
+        "CSS"
+      ]
     },
     {
+      "type": "education",
       "company": "Kocaeli Üniversitesi",
-      "title": "Bilişim Sistemleri Mühendisliği Öğrencisi",
-      "years": "09.2020 - günümüz",
+      "title": "Bilişim Sistemleri Mühendisliği (Lisans) · GNO 3.09 / 4.00",
+      "years": "2020 - 2024",
       "mainTech": [],
+      "description": [],
       "technologies": []
     },
     {
+      "type": "education",
       "company": "İstanbul Anadolu Lisesi",
-      "title": "Matematik, Fen Bilimleri",
-      "years": "09.2016 - 06.2020",
+      "title": "Matematik & Fen Bilimleri",
+      "years": "2015 - 2019",
       "mainTech": [],
+      "description": [],
       "technologies": []
     }
   ],
   "contact": {
     "sectionTitle": "İletişim & Sosyal Medya",
     "email": {
-      "title": "Email",
+      "title": "E-posta",
       "content": "erdemhho@gmail.com"
     },
     "linkedin": {
@@ -330,8 +416,8 @@
       "link": "https://www.linkedin.com/in/erdem-hacihasanoglu/"
     },
     "address": {
-      "title": "Address",
-      "content": "Pendik, Istanbul, Turkey"
+      "title": "Adres",
+      "content": "Pendik, İstanbul, Türkiye"
     },
     "medium": {
       "title": "Medium",

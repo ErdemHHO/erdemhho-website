@@ -1,21 +1,27 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Erdem Hacıhasanoğlu.I graduated from Kocaeli University, Department of Information Systems Engineering. I am a passionate software developer focused on the JavaScript programming language and related technologies. You can find my skills, projects, career history, contact information, and more on my website. Thank you ⭐",
-    "Pdf": "Download CV: ",
+    "description": "👋 I'm Erdem Hacıhasanoğlu, an Information Systems Engineering graduate of Kocaeli University and a software engineer with nearly 3 years of full stack experience. I focus on Node.js and NestJS on the backend and React and Next.js on the frontend. At Eteration, where I joined as a long-term intern and moved into a full-time role, I worked on large-scale projects for Türkiye Sigorta and Madame Coco: designing APIs, managing databases, integrating ERP, warehouse and e-commerce systems, and contributing to event-driven microservices with Kafka, Debezium, Keycloak, OpenTelemetry and Kubernetes. I'm looking for backend or full stack roles where I can help build scalable, maintainable software.",
+    "Pdf": "Download CV",
     "Cv_Link": "https://drive.google.com/drive/folders/14PMahfF3JuUH-9G3hqHHqa21DLJRH_7_?usp=sharing",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills & Tools",
       "experience": "Experience"
+    },
+    "skill_types": {
+      "backend": "Backend",
+      "database": "Databases",
+      "frontend": "Frontend",
+      "tools": "DevOps & Tools"
     }
   },
   "projects": [
     {
-      "title": "Hes Otomotiv Project",
-      "startDate": "May 2023",
-      "description": "The Hes Otomotiv E-Commerce Project is a specially designed e-commerce platform for an Istanbul-based automotive spare parts company. Developed to meet the company's needs, it features a Node.js (Express) backend, a React-based admin panel, and a user interface built with Next.js. Stock management is integrated using MongoDB database. The unique interface design is created with Bootstrap, while the project infrastructure is supported by AWS S3 and EC2 technologies. Admin panel and user interface codes are accessible on GitHub. The live version of the project can be explored on the website.",
+      "title": "Hes Otomotiv E-Commerce",
+      "startDate": "Freelance · Since May 2023",
+      "description": "A custom e-commerce platform for an İstanbul-based auto parts company, live and still maintained. It has a Node.js (Express) backend with MongoDB for stock management, a React admin panel and a Next.js storefront, hosted on AWS EC2 with assets on S3. The admin panel and storefront code are on GitHub.",
       "images": [
         "images/portfolio/projects/hes-otomotiv.png",
         "images/portfolio/projects/hes-otomotiv3.png",
@@ -55,9 +61,9 @@
       ]
     },
     {
-      "title": "Abalam Project",
-      "startDate": "May 2023",
-      "description": "The Abalam E-Commerce Project is a full-stack e-commerce platform developed for a store selling baby products. Within the project, a Node.js backend, a React-based admin panel, and a user interface built with Next.js were created. Data is stored in a MongoDB database. Bootstrap CSS library was used in the design process to achieve a modern look. The project servers are hosted on AWS EC2, and AWS S3 service is utilized for photo storage. With the integration of these technologies, the Abalam E-Commerce Project offers a robust and user-friendly e-commerce experience.",
+      "title": "Abalam E-Commerce",
+      "startDate": "Freelance · Since May 2023",
+      "description": "A full stack e-commerce platform for a baby products store, live and still maintained. It has a Node.js backend with MongoDB, a React admin panel and a Next.js storefront, hosted on AWS EC2 with product photos stored on S3.",
       "images": [
         "images/portfolio/projects/abalamturkiye.png",
         "images/portfolio/projects/abalamturkiye3.png",
@@ -97,9 +103,49 @@
       ]
     },
     {
-      "title": "Emin Kardeşler Project",
+      "title": "Eteration Projects",
+      "startDate": "2024 – 2026",
+      "description": "At Eteration I worked on large-scale projects for Türkiye Sigorta and Madame Coco: NestJS services for the Türkiye Sigorta mobile quick sale flow and the Saha360 field sales app (SOAP to REST integration), a full stack monitoring dashboard (NestJS, Next.js, Keycloak, WebSocket, Kafka, Debezium, InfluxDB), the integration layer between Madame Coco's ERP and Horoz Logistics' warehouse systems, and the middleware platform behind Madame Coco's European e-commerce site. I also worked on Reportback, a social media and web scraping analytics platform built with NestJS, Spring Boot and React Native.",
+      "images": [
+        "images/portfolio/projects/business.png"
+      ],
+      "url": null,
+      "github_url": null,
+      "technologies": [
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-nextjs-plain",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-apachekafka-original",
+          "name": "Kafka"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        },
+        {
+          "class": "fas fa-ellipsis-h",
+          "name": "And Much More..."
+        }
+      ]
+    },
+    {
+      "title": "Emin Kardeşler Website",
       "startDate": "January 2023",
-      "description": "A custom company introduction website was developed for EMİN KARDEŞLER MAK. SAN. ve TİC. LTD. ŞTİ. The website was entirely static and customized according to the company's preferences. It was deployed on the company's own server using Plesk.",
+      "description": "A custom static corporate website built during my internship at Emin Kardeşler Makina, tailored to the company's requirements and deployed on the company's own server with Plesk.",
       "images": [
         "images/portfolio/projects/eminkardesler.png",
         "images/portfolio/projects/eminkardesler3.png",
@@ -120,8 +166,8 @@
     },
     {
       "title": "My School Projects",
-      "startDate": "Since September 2020",
-      "description": "I had the opportunity to develop various applications at Kocaeli University. I developed many projects in areas such as web applications, deep learning, image processing, artificial intelligence using different technologies such as JavaScript, C#, Java, Python. These projects played a significant role at the beginning of my career. You can access these applications through my GitHub page.",
+      "startDate": "2020 – 2024",
+      "description": "Course projects from Kocaeli University in web development, deep learning, image processing and AI, built with JavaScript, C#, Java and Python. They are all available on my GitHub page.",
       "images": [
         "images/portfolio/projects/school.png",
         "images/portfolio/projects/puzzle.png",
@@ -172,7 +218,7 @@
           "name": "CSS"
         },
         {
-          "class": "devicon-moleculer-original",
+          "class": "fas fa-ellipsis-h",
           "name": "And Much More..."
         }
       ]
@@ -180,8 +226,11 @@
     {
       "title": "My Personal Website",
       "startDate": "May 2024",
-      "description": "I developed my personal website to introduce myself, showcase my projects, and share my experiences. The website was built using React, a popular JavaScript library, and styled with CSS. The website is hosted on GitHub Pages and is accessible to everyone. The source code is available on GitHub.",
-      "images": ["images/portfolio/projects/personal-website.png", "images/portfolio/projects/personal-website2.png"],
+      "description": "This website, where I introduce myself and share my projects and experience. It is built with React, Bootstrap and Sass, packaged with Docker and deployed automatically with GitHub Actions. The source code is on GitHub.",
+      "images": [
+        "images/portfolio/projects/personal-website.png",
+        "images/portfolio/projects/personal-website2.png"
+      ],
       "url": "https://erdemhho.com",
       "github_url": "https://github.com/ErdemHHO/erdemhho-website",
       "technologies": [
@@ -190,131 +239,168 @@
           "name": "React"
         },
         {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
         },
         {
-          "class": "devicon-github-original",
-          "name": "GitHub"
+          "class": "devicon-sass-original",
+          "name": "Sass"
         },
         {
-          "class": "devicon-amazonwebservices-plain-wordmark",
-          "name": "AWS"
-        }
-      ]
-    },
-    {
-      "title": "Other Business Projects",
-      "startDate": "Since 2021",
-      "description": "I have been involved in numerous projects at the companies I've worked for, utilizing technologies such as Node.js (Express & Nest.js), React, PHP, and others. For more detailed information, you can review my CV or reach out to me through my contact details.",
-      "images": ["images/portfolio/projects/business.png"],
-      "url": null,
-      "github_url": null,
-      "technologies": [
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
+          "class": "devicon-docker-plain",
+          "name": "Docker"
         },
         {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-nestjs-original",
-          "name": "Nest.js"
-        },
-        {
-          "class": "devicon-express-original-wordmark",
-          "name": "Express"
-        },
-        {
-          "class": "devicon-php-plain",
-          "name": "Php"
-        },
-        {
-          "class": "devicon-moleculer-original",
-          "name": "And Much More..."
+          "class": "devicon-githubactions-plain",
+          "name": "GitHub Actions"
         }
       ]
     }
   ],
   "experience": [
     {
+      "type": "work",
       "company": "Eteration Bilişim Çözümleri A.Ş.",
-      "title": "Software Developer",
-      "years": "05.2024 - present",
-      "mainTech": ["Nodejs", "React"],
+      "title": "Software Engineer",
+      "years": "07.2025 - 10.2026",
+      "mainTech": [
+        "NestJS",
+        "Full Stack"
+      ],
+      "description": [
+        "Türkiye Sigorta – Online Quick Sale: NestJS services and REST endpoints behind the mobile app's quick-purchase screens, with Redis caching and OpenTelemetry tracing.",
+        "Türkiye Sigorta – Saha360: NestJS backend for a field sales and CRM mobile app, exposing SOAP-based internal services as REST APIs."
+      ],
       "technologies": [
         "NestJS",
+        "TypeScript",
+        "Redis",
+        "OpenTelemetry",
+        "SOAP",
+        "REST",
+        "Microservices",
+        "Unit Testing",
+        "Agile & Scrum"
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Eteration Bilişim Çözümleri A.Ş.",
+      "title": "Assistant Software Engineer",
+      "years": "05.2024 - 07.2025",
+      "mainTech": [
+        "NestJS",
+        "Next.js"
+      ],
+      "description": [
+        "Madame Coco – Monitoring Dashboard: full stack app with Keycloak role-based auth, real-time WebSocket notifications and Kafka + Debezium data streaming.",
+        "Madame Coco – Horoz Logistics Integration: NestJS integration layer between the ERP and the warehouse systems.",
+        "Eteration – Reportback: social media and web scraping analytics platform (NestJS, Spring Boot, React Native)."
+      ],
+      "technologies": [
+        "NestJS",
+        "Next.js",
         "React",
-        "Nextjs",
-        "TypeScript",
-        "PostgreSQL",
-        "Docker",
-        "Kubernetes",
-        "Redis",
         "Kafka",
+        "Debezium",
         "Keycloak",
-        "Agile & Scrum"
+        "PostgreSQL",
+        "InfluxDB",
+        "WebSocket",
+        "Kubernetes"
       ]
     },
     {
+      "type": "work",
       "company": "Eteration Bilişim Çözümleri A.Ş.",
-      "title": "Software Developer Intern",
+      "title": "Software Engineer Intern",
       "years": "02.2024 - 05.2024",
-      "mainTech": ["Nodejs"],
+      "mainTech": [
+        "NestJS"
+      ],
+      "description": [
+        "Madame Coco – E-Commerce Europe: NestJS middleware managing foreign warehouse operations, website communication and ERP synchronization."
+      ],
       "technologies": [
         "NestJS",
         "TypeScript",
         "PostgreSQL",
-        "Docker",
-        "Kubernetes",
         "Redis",
         "Kafka",
         "Keycloak",
-        "Agile & Scrum"
+        "Docker",
+        "Kubernetes"
       ]
     },
     {
-      "company": "Omreon Bilişim Teknolojileri",
-      "title": "Frontend Developer",
-      "years": "07.2023 - 10.2023",
-      "mainTech": ["React"],
-      "technologies": ["JavaScript", "AntDesign", "HTML", "CSS"]
+      "type": "work",
+      "company": "Omreon Technology",
+      "title": "Frontend Developer (Intern, then Part-time)",
+      "years": "08.2023 - 11.2023",
+      "mainTech": [
+        "React",
+        "Angular"
+      ],
+      "description": [
+        "Turkcell DSS Suite: user interfaces with React and Angular for a platform bringing together various Turkcell services.",
+        "Network Scanner: React and Ant Design interface of one of Omreon's own products."
+      ],
+      "technologies": [
+        "JavaScript",
+        "Ant Design",
+        "HTML",
+        "CSS"
+      ]
     },
     {
-      "company": "GÜRİS İŞ MAKİNALARI ENDÜSTRİ A.Ş.",
-      "title": "Software Developer Intern",
-      "years": "08.2022 - 09.2022",
-      "mainTech": ["PHP"],
-      "technologies": ["MsSql", "Web Development", "HTML", "CSS", "Laravel"]
-    },
-    {
-      "company": "Emin Kardeşler LTD. STI.",
+      "type": "work",
+      "company": "Emin Kardeşler Makina San. Tic. Ltd. Şti.",
       "title": "Software Developer Intern",
       "years": "01.2023 - 02.2023",
       "mainTech": [],
-      "technologies": ["HTML", "CSS", "JavaScript"]
+      "description": [
+        "Built a custom static corporate website tailored to the company's requirements."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
-      "company": "MG Lojistik",
-      "title": "Software Support",
-      "years": "06.2022 - 08.2022",
-      "mainTech": [],
-      "technologies": []
+      "type": "work",
+      "company": "Güriş İş Makinaları Endüstri A.Ş.",
+      "title": "Software Developer Intern",
+      "years": "08.2022 - 09.2022",
+      "mainTech": [
+        "PHP"
+      ],
+      "description": [
+        "Designed and built a web application that lets customers track concrete services, purchase quantities and related transactions."
+      ],
+      "technologies": [
+        "MSSQL",
+        "Web Development",
+        "HTML",
+        "CSS"
+      ]
     },
     {
+      "type": "education",
       "company": "Kocaeli University",
-      "title": "Information Systems Engineering Student",
-      "years": "09.2020 - present",
+      "title": "B.Sc. Information Systems Engineering · GPA 3.09 / 4.00",
+      "years": "2020 - 2024",
       "mainTech": [],
+      "description": [],
       "technologies": []
     },
     {
-      "company": "Istanbul Anatolian High School",
-      "title": "Maths , Science",
-      "years": "09.2016 - 06.2020",
+      "type": "education",
+      "company": "İstanbul Anadolu Lisesi",
+      "title": "Mathematics & Science",
+      "years": "2015 - 2019",
       "mainTech": [],
+      "description": [],
       "technologies": []
     }
   ],
@@ -331,7 +417,7 @@
     },
     "address": {
       "title": "Address",
-      "content": "Pendik, Istanbul, Turkey"
+      "content": "Pendik, İstanbul, Türkiye"
     },
     "medium": {
       "title": "Medium",

@@ -3,16 +3,26 @@
     "name": "Erdem Hacıhasanoğlu",
     "titles": [
       "Information Systems Engineer",
-      "Backend Developer",
-      "Frontend Developer",
-      "Junior Software Developer",
-      "Javascript Developer"
+      "Software Engineer",
+      "Full Stack Developer",
+      "Node.js & NestJS Developer",
+      "React & Next.js Developer"
     ],
     "social": [
       {
         "name": "github",
         "url": "https://github.com/ErdemHHO",
         "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/erdem-hacihasanoglu/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "medium",
+        "url": "https://medium.com/@erdemhho",
+        "class": "fab fa-medium"
       },
       {
         "name": "instagram",
@@ -25,8 +35,14 @@
   "skills": {
     "icons": [
       {
-        "name": "Nodejs",
-        "class": "devicon-nodejs-plain-wordmark",
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "NestJS",
+        "class": "devicon-nestjs-plain",
         "level": "100",
         "type": "backend"
       },
@@ -37,14 +53,64 @@
         "type": "backend"
       },
       {
-        "name": "Nestjs",
-        "class": "devicon-nestjs-plain",
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
         "level": "100",
         "type": "backend"
       },
       {
-        "name": "MongoDB",
-        "class": "devicon-mongodb-plain",
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "GraphQL",
+        "class": "devicon-graphql-plain",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "Spring Boot",
+        "class": "",
+        "level": "100",
+        "type": "backend",
+        "iconify": "simple-icons:springboot"
+      },
+      {
+        "name": "Kafka",
+        "class": "devicon-apachekafka-original",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "Debezium",
+        "class": "fas fa-stream",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "WebSocket",
+        "class": "",
+        "level": "100",
+        "type": "backend",
+        "iconify": "logos:websocket"
+      },
+      {
+        "name": "Microservices",
+        "class": "fas fa-cubes",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "SOAP",
+        "class": "fas fa-exchange-alt",
+        "level": "100",
+        "type": "backend"
+      },
+      {
+        "name": "Puppeteer",
+        "class": "devicon-puppeteer-plain",
         "level": "100",
         "type": "backend"
       },
@@ -52,19 +118,43 @@
         "name": "PostgreSQL",
         "class": "devicon-postgresql-plain",
         "level": "100",
-        "type": "backend"
+        "type": "database"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "100",
+        "type": "database"
       },
       {
         "name": "MySQL",
         "class": "devicon-mysql-plain",
         "level": "100",
-        "type": "backend"
+        "type": "database"
       },
       {
-        "name": "MsSQL",
+        "name": "MSSQL",
         "class": "devicon-microsoftsqlserver-plain",
         "level": "100",
-        "type": "backend"
+        "type": "database"
+      },
+      {
+        "name": "Redis",
+        "class": "devicon-redis-plain",
+        "level": "100",
+        "type": "database"
+      },
+      {
+        "name": "Elasticsearch",
+        "class": "devicon-elasticsearch-plain",
+        "level": "100",
+        "type": "database"
+      },
+      {
+        "name": "InfluxDB",
+        "class": "devicon-influxdb-original",
+        "level": "100",
+        "type": "database"
       },
       {
         "name": "React",
@@ -73,38 +163,26 @@
         "type": "frontend"
       },
       {
-        "name": "Nextjs",
-        "class": "devicon-nextjs-original-wordmark",
+        "name": "Next.js",
+        "class": "devicon-nextjs-plain",
         "level": "100",
         "type": "frontend"
       },
       {
         "name": "Angular",
-        "class": "devicon-angularjs-plain",
+        "class": "devicon-angular-plain",
         "level": "100",
         "type": "frontend"
       },
       {
-        "name": "Html",
-        "class": "devicon-html5-plain",
+        "name": "React Native",
+        "class": "devicon-react-original",
         "level": "100",
         "type": "frontend"
       },
       {
-        "name": "Css",
-        "class": "devicon-css3-plain",
-        "level": "100",
-        "type": "frontend"
-      },
-      {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "100",
-        "type": "frontend"
-      },
-      {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
+        "name": "Redux",
+        "class": "devicon-redux-original",
         "level": "100",
         "type": "frontend"
       },
@@ -115,20 +193,20 @@
         "type": "frontend"
       },
       {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
+        "name": "Ant Design",
+        "class": "devicon-antdesign-plain",
         "level": "100",
         "type": "frontend"
       },
       {
-        "name": "AWS",
-        "class": "devicon-amazonwebservices-plain-wordmark",
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
         "level": "100",
-        "type": "tools"
+        "type": "frontend"
       },
       {
-        "name": "Git",
-        "class": "devicon-git-plain",
+        "name": "Docker",
+        "class": "devicon-docker-plain",
         "level": "100",
         "type": "tools"
       },
@@ -139,8 +217,39 @@
         "type": "tools"
       },
       {
-        "name": "Docker",
-        "class": "devicon-docker-plain",
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain-wordmark",
+        "level": "100",
+        "type": "tools"
+      },
+      {
+        "name": "Nginx",
+        "class": "devicon-nginx-original",
+        "level": "100",
+        "type": "tools"
+      },
+      {
+        "name": "Keycloak",
+        "class": "",
+        "level": "100",
+        "type": "tools",
+        "iconify": "simple-icons:keycloak"
+      },
+      {
+        "name": "OpenTelemetry",
+        "class": "devicon-opentelemetry-plain",
+        "level": "100",
+        "type": "tools"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "100",
+        "type": "tools"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain",
         "level": "100",
         "type": "tools"
       }
