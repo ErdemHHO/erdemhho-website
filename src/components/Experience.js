@@ -25,16 +25,18 @@ class Experience extends Component {
             </Badge>
           )
         })
+        const isEducation = work.type === 'education'
+        const details = (work.description || []).map((line, j) => <li key={j}>{line}</li>)
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className={`vertical-timeline-element--${isEducation ? 'education' : 'work'}`}
             date={work.years}
             iconStyle={{
-              background: '#AE944F',
+              background: isEducation ? '#6b5a2e' : '#AE944F',
               color: '#fff',
               textAlign: 'center'
             }}
-            icon={<i className="fas fa-dumbbell experience-icon"></i>}
+            icon={<i className={`fas ${isEducation ? 'fa-graduation-cap' : 'fa-briefcase'} experience-icon`}></i>}
             key={i}
           >
             <div style={{ textAlign: 'left', marginBottom: '4px' }}>{mainTech}</div>
@@ -45,7 +47,8 @@ class Experience extends Component {
             <h4 className="vertical-timeline-element-subtitle" style={{ textAlign: 'left' }}>
               {work.company}
             </h4>
-            <div style={{ textAlign: 'left', marginTop: '15px' }}>{tech}</div>
+            {details.length > 0 ? <ul className="experience-details">{details}</ul> : null}
+            {tech.length > 0 ? <div style={{ textAlign: 'left', marginTop: '15px' }}>{tech}</div> : null}
           </VerticalTimelineElement>
         )
       })
@@ -63,17 +66,7 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto">
-          <VerticalTimeline>
-            {work}
-            <VerticalTimelineElement
-              iconStyle={{
-                background: '#AE944F',
-                color: '#fff',
-                textAlign: 'center'
-              }}
-              icon={<i className="fas fa-hourglass-start mx-auto experience-icon"></i>}
-            />
-          </VerticalTimeline>
+          <VerticalTimeline>{work}</VerticalTimeline>
         </div>
       </section>
     )
