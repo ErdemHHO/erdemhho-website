@@ -41,7 +41,7 @@ class About extends Component {
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
                 <span style={{ cursor: 'auto' }}>
-                  <img height="250px" src={profilepic} alt="Avatar placeholder" />
+                  <img src={profilepic} alt={this.props.sharedBasicInfo ? this.props.sharedBasicInfo.name : ''} />
                   <Icon icon={typescriptIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
                   <Icon icon={nodejs} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
                   <Icon icon={javascript} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
@@ -57,23 +57,12 @@ class About extends Component {
                     <span className="iconify" data-icon="twemoji:yellow-circle" data-inline="false"></span> &nbsp;{' '}
                     <span className="iconify" data-icon="twemoji:green-circle" data-inline="false"></span>
                   </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: 'auto',
-                      fontSize: '132%',
-                      lineHeight: '200%'
-                    }}
-                  >
-                    <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
-                    {about}
-                    <br />
-                    <span>{Pdf}</span>
-                    <a href={Cv_Link} target="_blank" rel="noopener noreferrer">
-                      <FaFilePdf size={32} className="pdfIcon" />
+                  <div className="card-body about-body">
+                    <p className="wave mb-3">{hello} :)</p>
+                    <p className="about-text">{about}</p>
+                    <a href={Cv_Link} target="_blank" rel="noopener noreferrer" className="cv-button">
+                      <FaFilePdf size={22} className="pdfIcon" />
+                      <span>{Pdf}</span>
                     </a>
                   </div>
                 </div>

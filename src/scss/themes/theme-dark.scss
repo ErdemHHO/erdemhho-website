@@ -38,6 +38,12 @@ body[data-theme='dark'] {
     }
   }
 
+  .cv-button {
+    color: #fff;
+  }
+  .vertical-timeline-element-content {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3) !important;
+  }
   #about {
     background-color: #7f7f7f;
     h1 span {
