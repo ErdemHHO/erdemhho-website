@@ -19,7 +19,6 @@ class Contact extends Component {
 
   render() {
     const contact = this.props.resumeBasicInfo
-    console.log(contact)
     if (!contact) return null
 
     return (
@@ -40,7 +39,7 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="contact-item">
-                <a href="mailto:erdemhho@gmail.com" target="blank" className="contact-link">
+                <a href={`mailto:${contact.email.content}`} className="contact-link">
                   <FaMailBulk className="contact-icon" />
                   <div className="contact-text">
                     <p className="contact-title">{contact.email.title}</p>
@@ -49,7 +48,7 @@ class Contact extends Component {
                 </a>
               </div>
               <div className="contact-item">
-                <a href={contact.linkedin.link} target="blank" className="contact-link">
+                <a href={contact.linkedin.link} target="_blank" rel="noopener noreferrer" className="contact-link">
                   <FaLinkedin className="contact-icon" />
                   <div className="contact-text">
                     <p className="contact-title">{contact.linkedin.title}</p>
@@ -60,7 +59,7 @@ class Contact extends Component {
             </div>
             <div className="col-lg-6 bgDark">
               <div className="contact-item">
-                <a href={contact.github.link} target="blank" className="contact-link">
+                <a href={contact.github.link} target="_blank" rel="noopener noreferrer" className="contact-link">
                   <FaGithub className="contact-icon" />
                   <div className="contact-text">
                     <p className="contact-title">{contact.github.title}</p>
@@ -69,7 +68,7 @@ class Contact extends Component {
                 </a>
               </div>
               <div className="contact-item">
-                <a href={contact.medium.link} target="blank" className="contact-link">
+                <a href={contact.medium.link} target="_blank" rel="noopener noreferrer" className="contact-link">
                   <FaMedium className="contact-icon" />
                   <div className="contact-text">
                     <p className="contact-title">{contact.medium.title}</p>
@@ -78,7 +77,7 @@ class Contact extends Component {
                 </a>
               </div>
               <div className="contact-item">
-                <a href={contact.instagram.link} target="blank" className="contact-link">
+                <a href={contact.instagram.link} target="_blank" rel="noopener noreferrer" className="contact-link">
                   <FaInstagram className="contact-icon" />
                   <div className="contact-text">
                     <p className="contact-title">{contact.instagram.title}</p>
